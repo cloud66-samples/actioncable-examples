@@ -1,5 +1,5 @@
 local: &local
-  url: redis://<%=REDIS_ADDRESS%>:6379
+  url: redis://<%=ENV['REDIS_ADDRESS']%>:6379
 
 development: *local
 test: *local
