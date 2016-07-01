@@ -1,8 +1,6 @@
-# production:
-#   url: redis://redis.example.com:6379
-
 local: &local
-  url: redis://localhost:6379
+  url: redis://<%=REDIS_ADDRESS%>:6379
 
 development: *local
 test: *local
+production: *local
