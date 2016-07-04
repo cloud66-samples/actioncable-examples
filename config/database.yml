@@ -1,12 +1,11 @@
 development:
     adapter: mysql2
-    username: <%= ENV['MYSQL_USERNAME'] %>
-    password: <%= ENV['MYSQL_PASSWORD'] %>
-    database: <%= ENV['MYSQL_DATABASE'] %>
-    host: <%= ENV['MYSQL_ADDRESS'] %>
+    username: root
+    database: actioncable_dev
+    host: 127.0.0.1
 production:
     adapter: mysql2
     username: <%= ENV['MYSQL_USERNAME'] %>
     password: <%= ENV['MYSQL_PASSWORD'] %>
-    database: <%= ENV['MYSQL_DATABASE'] %>
+    database: actioncable_prod
     host: <%= ENV['MYSQL_ADDRESS'] %>

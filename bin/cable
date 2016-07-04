@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec puma -p 28080 cable/config.ru
+bundle exec puma -p 8080 cable/config.ru
