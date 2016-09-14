@@ -74,7 +74,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  ActionCable.server.config.allowed_request_origins = ["http://138.68.134.218"]
+  ActionCable.server.config.allowed_request_origins = ["http://138.68.136.8"]
 
   # Set Action Cable server url for consumer connection
   # config.action_cable.url = 'ws://cable.example.com:28080'
