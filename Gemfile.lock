@@ -80,6 +80,7 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
+    mysql2 (0.5.3)
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
@@ -136,7 +137,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -164,12 +164,12 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   jbuilder (~> 2.0)
   jquery-rails
+  mysql2
   puma
   rails (~> 5.1)
   redis
   sass-rails (~> 5.0)
   spring
-  sqlite3
   turbolinks (~> 5)
   uglifier (>= 1.3.0)
   web-console
