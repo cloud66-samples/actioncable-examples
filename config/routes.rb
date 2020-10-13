@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  mount ActionCable.server => '/cable'
+
   resource  :session
   resources :examples
 
@@ -7,6 +9,4 @@ Rails.application.routes.draw do
   end
 
   root 'examples#index'
-
-  mount ActionCable.server => '/cable'
 end
